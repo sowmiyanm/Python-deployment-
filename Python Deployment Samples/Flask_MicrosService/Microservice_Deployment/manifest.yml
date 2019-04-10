@@ -1,0 +1,8 @@
+---
+applications:
+- name: fault_prediction_new
+  memory: 512MB
+  disk_quota: 1G
+  random-route: true
+  buildpack: python_buildpack
+  

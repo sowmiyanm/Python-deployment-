@@ -1,0 +1,8 @@
+Flask
+pandas
+numpy
+xgboost
+sklearn
+pickleshare
+scipy
+scikit-learn

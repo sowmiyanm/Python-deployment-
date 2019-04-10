@@ -1,0 +1,16 @@
+{
+ "fault_prediction": {
+     "tags" : { 
+             "analytic-root": "analytics", 
+             "analytic-testbench" : "testbench",
+             "driver-root": "driver", 
+             "driver-main": "driver/AnalyticsDriver.py",
+             "mapper":"mapper",
+             "resultprovider":"resolve"
+          },
+	 "conda-libs" : ["numpy==1.11.1","scikit-learn==0.17.1","scipy==0.17.1", "pandas==0.18.1","pickleshare=0.7.4","scipy==0.19.1"],
+     "libs" : ["xgboost==0.6a2"],
+     "memory" : "1G",
+     "instances" : "1"
+ }
+}
